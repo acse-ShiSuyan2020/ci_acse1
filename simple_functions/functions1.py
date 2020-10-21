@@ -12,3 +12,4 @@ def my_sum(iterable):
 @lru_cache(maxsize=None)  # Note: -> @cache in python >= 3.9
 def factorial(n):
     return n * factorial(n-1) if n else 1
+# This is a new line that ends the file.
